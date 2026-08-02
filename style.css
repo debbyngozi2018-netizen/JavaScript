@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #928dab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: #c0392b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f8f4f0;
+  border-left: 4px solid #c0392b;
+}
