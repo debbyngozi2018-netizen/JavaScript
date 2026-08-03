@@ -1,33 +1,30 @@
 body {
+  background: #d7e4f7;
   font-family: Arial, sans-serif;
-  background: #928dab;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
-.card {
-  background: #fff;
+  color: #0a1a3d;
   padding: 30px;
-  border-radius: 10px;
-  width: 350px;
-  text-align: center;
 }
-
+label, input, textarea, button {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+input, textarea {
+  padding: 8px;
+  width: 300px;
+}
 button {
-  padding: 10px 20px;
-  background: #c0392b;
+  background: #d9534f;
   color: #fff;
   border: none;
-  border-radius: 6px;
+  padding: 12px 20px;
   cursor: pointer;
+  border-radius: 4px;
 }
-
 #output {
-  margin-top: 15px;
-  padding: 10px;
-  background: #f8f4f0;
-  border-left: 4px solid #c0392b;
+  background: #f5f5f5;
+  padding: 12px;
+  width: 300px;
+  border-left: 4px solid #d9534f;
+  white-space: pre-line;
 }

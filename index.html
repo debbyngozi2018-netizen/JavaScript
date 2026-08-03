@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>JavaScript Fundamentals Assignment</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Contact Form - JS Fundamentals</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="card">
-    <h1>Hello There</h1>
-    <button id="greetBtn">Click Me</button>
-    <div id="output">Click the button to see the message...</div>
-  </div>
+  <h1>Contact Form</h1>
+  <p>Fill in your details below and click submit to send the required information</p>
+
+  <label for="fullName">Full Name</label>
+  <input type="text" id="fullName" placeholder="Enter your full name">
+
+  <label for="age">Age</label>
+  <input type="number" id="age" placeholder="Enter your age">
+
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="you@example.com">
+
+  <label for="phone">Phone Number</label>
+  <input type="text" id="phone" placeholder="123-456-7890">
+
+  <label for="message">Message:</label>
+  <textarea id="message" rows="4" placeholder="Enter your message here..."></textarea>
+
+  <label>
+    <input type="checkbox" id="sendCopy"> Send a copy of this message to my email
+  </label>
+
+  <label>
+    <input type="radio" name="agreement" id="agreeYes" value="agree"> I agree that all information provided are authentic.
+  </label>
+  <label>
+    <input type="radio" name="agreement" id="agreeNo" value="disagree"> I do not agree
+  </label>
+
+  <button id="sendBtn">Send a message</button>
+
+  <div id="output">Click the button to see the message</div>
 
   <script src="script.js"></script>
 </body>
